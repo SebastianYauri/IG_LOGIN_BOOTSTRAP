@@ -1,0 +1,34 @@
+:root {
+--dark: #16191c;
+--dark-x:#e4e4e7;
+--light:#ffffff;
+--GG:#f2f2f3;
+ }
+ body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--dark)
+ }
+ .bg-dark {background-color: var(--GG)!important;}
+ .bg-dark-x {background-color: var(--dark-x);}
+
+.form-control, .btn {
+   min-height: 3.125rem;
+   line-height: initial;
+}
+.img-1 {
+   background-image: url('n1.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.img-2 {
+   background-image: url('n2.jpg');
+   background-size: cover;
+   background-position: center;
+}
+.img-3 {
+   background-image: url('n3.jpg');
+   background-size: cover;
+   background-position: center;
+}
